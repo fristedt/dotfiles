@@ -1,0 +1,4 @@
+# replace Ctrl-A with Ctrl-O
+escape ^Oo
+
+startup_message off
