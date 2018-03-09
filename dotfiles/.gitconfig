@@ -5,3 +5,9 @@
 	email = "hampus.fristedt93@gmail.com"
 [push]
 	default = simple
+
+[credential]
+	helper = cache --timeout=3600
+
+[credential "https://github.com"]
+	username = fristedt
