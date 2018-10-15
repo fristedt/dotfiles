@@ -11,3 +11,9 @@
 
 [credential "https://github.com"]
 	username = fristedt
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	d = difftool
