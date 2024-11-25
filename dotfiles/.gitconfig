@@ -5,6 +5,7 @@
 	email = "hampus.fristedt93@gmail.com"
 [push]
 	default = simple
+  autoSetupRemote = true
 
 [credential]
 	helper = cache --timeout=3600
@@ -12,8 +13,10 @@
 [credential "https://github.com"]
 	username = fristedt
 [diff]
-	tool = vimdiff
+	tool = nvim -d
 [difftool]
 	prompt = false
 [alias]
 	d = difftool
+[pull]
+	rebase = true
