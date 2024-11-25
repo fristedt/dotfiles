@@ -1,0 +1,18 @@
+import = [
+  "~/.config/alacritty/themes/themes/github_dark.toml"
+]
+
+# [window]
+# decorations = "None"
+
+[font]
+size = 14
+
+[font.normal]
+family = "Hack Nerd Font"
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+]
